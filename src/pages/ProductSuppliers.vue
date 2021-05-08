@@ -12,16 +12,16 @@
 </template>
 <script>
 import { PaperTable } from "@/components";
-const tableColumns = ["id","orderNumber","count","created_at","updated_at","deleted_at"];
+const tableColumns = ["id","supplier_id","product_id","created_at","updated_at","deleted_at"];
 
 const tableData = [
- {id:21,
- orderNumber:"#RCP-OR-0018",
- count:2,
- created_at:"2021-04-21T17:01:53.000000Z",
- updated_at:"2021-04-21T17:01:53.000000Z",
- deleted_at:null
- }
+{id:3,
+supplier_id:2,
+product_id:1,
+created_at:"2021-04-22T19:26:47.000000Z",
+updated_at:"2021-04-22T19:26:47.000000Z",
+deleted_at:null
+},
  
 ];
 
