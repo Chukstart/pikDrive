@@ -21,12 +21,14 @@
             >
             </fg-input>
           </div>
+        </div>
 
+        <div class="row">
           <div class="col-md-5">
             <fg-input
               type="text"
-              label="supplier_id"
-              placeholder="supplier_id"
+              label="Supplier Id"
+              placeholder="Supplier Id"
               v-model="supplier.supplier_id"
             >
             </fg-input>
