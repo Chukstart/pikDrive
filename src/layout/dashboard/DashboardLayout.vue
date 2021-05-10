@@ -7,10 +7,10 @@
         <sidebar-link to="/Products" name="Products" icon="ti-bag"/>
         <sidebar-link to="/Suppliers" name="Suppliers" icon="ti-magnet"/>
         <sidebar-link to="/ProductSuppliers" name="ProductSuppliers" icon="ti-plug"/>
-        <sidebar-link to="/NewSupplier" name="NewSupplier" icon="ti-plus"/>
-        <sidebar-link to="/NewProduct" name="NewProduct" icon="ti-plus"/>
-        <sidebar-link to="/NewOrder" name="NewOrder" icon="ti-plus"/>
-        <sidebar-link to="/DeleteOrder" name="DeleteOrder" icon="ti-trash"/>
+        <sidebar-link to="/NewSupplier" name="New Supplier" icon="ti-plus"/>
+        <sidebar-link to="/NewProduct" name="New Product" icon="ti-plus"/>
+        <sidebar-link to="/NewOrder" name="New Order" icon="ti-plus"/>
+        <sidebar-link to="/DeleteOrder" name="Delete Order" icon="ti-trash"/>
       </template>
       <mobile-menu>
         <li class="nav-item">
