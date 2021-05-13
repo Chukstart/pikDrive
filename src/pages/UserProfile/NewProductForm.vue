@@ -8,14 +8,14 @@
             <fg-input type="text"
                       label="Product Name"
                       placeholder="Company Name"
-                      v-model="product.name">
+                      v-model="name">
             </fg-input>
           </div>
           <div class="col-md-5">
             <fg-input type="text"
                       label="Product Quantity"
                       placeholder="Product Quantity"
-                      v-model="product.quantity">
+                      v-model="quantity">
             </fg-input>
           </div>
         </div>
@@ -25,7 +25,7 @@
             <fg-input type="text"
                       label="Description"
                       placeholder="Description"
-                      v-model="product.description">
+                      v-model="description">
             </fg-input>
           </div>
         </div>
@@ -45,11 +45,9 @@
 export default {
   data() {
     return {
-      product: {
         name: "",
         quantity: 4,
         description: ""
-      }
     };
   },
   methods: {
@@ -63,13 +61,13 @@ export default {
         },   
   		method: 'post',
   		credentials: "same-origin",
-        body: JSON.stringify({name:this.product.name,description:this.product.description,quantity:this.product.quantity}),
+        body: JSON.stringify({name:this.name,description:this.description,quantity:this.quantity}),
       })
       const data = await res.json()
       alert("Your data: " + JSON.stringify(data));
-      this.product.description = ''
-      this.product.name = ''
-      this.product.quantity = 0
+      this.description = ''
+      this.name = ''
+      this.quantity = 0
     }
   }
 };
