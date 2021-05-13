@@ -7,7 +7,7 @@
           <div class="col-md-5">
             <fg-input type="text"
                       label="Product Name"
-                      placeholder="Company Name"
+                      placeholder="Product Name"
                       v-model="name">
             </fg-input>
           </div>
